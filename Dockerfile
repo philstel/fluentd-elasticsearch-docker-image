@@ -1,4 +1,4 @@
-FROM fluent/fluentd:latest
+FROM fluent/fluentd:v1.0
 MAINTAINER Phil Stelzer <phil@philstelzer.com>
 
 RUN apk add --update --virtual .build-deps \
