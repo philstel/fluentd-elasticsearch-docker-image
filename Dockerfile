@@ -1,4 +1,4 @@
-FROM fluent/fluentd:v1.2.2
+FROM fluent/fluentd:v1.3
 MAINTAINER Phil Stelzer <phil@philstelzer.com>
 
 RUN apk add --no-cache tzdata
